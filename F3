@@ -1,0 +1,7 @@
+def get_unique_elements(elements):
+    # Используем множество для получения уникальных элементов
+    unique_elements = set(elements)
+    return sorted (list(unique_elements))
+x = ["bananas","apples","kiwi","kiwi"]
+
+print( get_unique_elements(x))
