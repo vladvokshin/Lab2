@@ -1,0 +1,36 @@
+from collections import defaultdict
+
+def d(a):
+
+    # x=["дом","кот","дым","яблоко","атом","собака"]
+    b = defaultdict(list)
+    for i in x:
+        b[len(i)].append(i)
+    return b
+    # print(b)
+
+# x=["дом","кот","дым","яблоко","атом","собака"]
+# d(x)   
+# #print(len(x[0,1,2,3]))
+# for i in x:
+#     # print(f"{i} длина {len(i)}")
+
+#     if len(i) == len(i):
+#         print(i)
+#         # print("add")
+#         k = len(i)
+#         b[k] = s
+#         u = s.append(i)
+# print("Распечатанный массив: ")        
+# print(*s)
+
+    
+
+# for c in s:
+#     k = 3
+#     print(c)
+#     b.update({k:s.append(c)})
+
+# print(*f)
+
+    
